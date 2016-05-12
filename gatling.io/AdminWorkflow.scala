@@ -15,7 +15,6 @@ class AdminWorkflow extends Simulation {
 		.acceptEncodingHeader("gzip, deflate")
 		.acceptLanguageHeader("ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3")
 		.userAgentHeader("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:44.0) Gecko/20100101 Firefox/44.0")
-å
 	val scn = scenario("AdminWorkflow")
 		.exec(http("[INDEX]")
 			.get("/"))
